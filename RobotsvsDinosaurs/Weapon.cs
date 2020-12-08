@@ -11,8 +11,8 @@ namespace RobotsvsDinosaurs
 
         //Member Variables
 
-
-
+        public int attackpower;
+        public string type;
 
 
 
@@ -20,12 +20,14 @@ namespace RobotsvsDinosaurs
 
         //Constructor
 
+        public Weapon(int attackpower, string type)
+        {
+          this.attackpower = attackpower;
 
+          this.type = type;
 
-
-
-
-
+        }
+        
 
 
         //Member Methods

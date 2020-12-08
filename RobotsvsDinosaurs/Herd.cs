@@ -12,6 +12,10 @@ namespace RobotsvsDinosaurs
         //Member Variables
 
 
+        string bite;
+        string swingtail;
+        string jump;
+        
 
 
 
@@ -21,6 +25,12 @@ namespace RobotsvsDinosaurs
         //Constructor
 
 
+        
+        Dinosaur Tyrannosaurus = new Dinosaur("Tyrannosaurus", 75);
+        Dinosaur Triceratops = new Dinosaur("Triceratops", 55);
+        Dinosaur Velociraptor = new Dinosaur("Velociraptor", 65);
+
+        
 
 
 
@@ -30,4 +40,5 @@ namespace RobotsvsDinosaurs
 
         //Member Methods
     }
+
 }

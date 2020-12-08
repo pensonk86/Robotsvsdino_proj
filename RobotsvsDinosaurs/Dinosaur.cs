@@ -7,30 +7,43 @@ using System.Threading.Tasks;
 namespace RobotsvsDinosaurs
 {
     class Dinosaur
-    {
+    {   //Create three objects and assign appropriate values to all objects
 
         //Member Variables
 
         public string type;
-        public string health;
-        public string energy;
-        public string attack power;
+        public int health;
+        public int energy;
+        public int attackpower;
 
 
+        
 
 
 
 
         //Constructor
 
+       public Dinosaur(string type, int attackpower)
+        {
+            this.type = type;
+            this.health = 100;
+            this.energy = 100;
+            this.attackpower = attackpower;
+
+            
+        }
 
 
-
-
-
+        
 
 
 
         //Member Methods
+
+
+
+
+
     }
 }
