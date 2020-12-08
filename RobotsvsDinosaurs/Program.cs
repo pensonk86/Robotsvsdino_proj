@@ -13,7 +13,7 @@ namespace RobotsvsDinosaurs
             string someNames = "";
             Console.WriteLine(someNames);
             Robot robotOne = new Robot("Jarvis", 60, 75);
-            Robot robotTwo = new Robot("matrix", 66, 80);
+            Robot robotTwo = new Robot("Matrix", 66, 80);
             Robot robotThree = new Robot("Roomba", 64, 70);
 
 

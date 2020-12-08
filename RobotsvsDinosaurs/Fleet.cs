@@ -6,29 +6,33 @@ using System.Threading.Tasks;
 
 namespace RobotsvsDinosaurs
 {
-    class Fleet
+    public class Fleet
     {
 
         // Member Variables
         // Create weapons to use
         // 
-
-        string swingsword;
-        string swingaxe;
-        String swingbat;
-
-
-
-
-
+        
+           
+           public Robot Matrix;
+           public Robot Jarvis;
+           public Robot Roomba;
 
 
 
         //Constructor
+        public Fleet()
 
-        Robot Matrix = new Robot("Matrix", 66, 80);
-        Robot Jarvis = new Robot("Jarvis", 60, 75);
-        Robot Roomba = new Robot("Roomba", 64, 70);
+        {
+
+            Matrix = new Robot("Matrix", 66, 80);
+            Jarvis = new Robot("Jarvis", 60, 75);
+            Roomba = new Robot("Roomba", 64, 70);
+
+
+        }
+        
+       
 
         
         

@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace RobotsvsDinosaurs
 {
-    class Herd
+    public class Herd
     {
 
         //Member Variables
 
-
-        string bite;
-        string swingtail;
-        string jump;
-        
-
+        public Dinosaur Tyrannosaurus;
+        public Dinosaur Triceratops;
+        public Dinosaur Velociraptor;
 
 
 
@@ -24,11 +21,19 @@ namespace RobotsvsDinosaurs
 
         //Constructor
 
+        public Herd()
+        {
+            Tyrannosaurus = new Dinosaur("Tyrannosaurus", 75);
+            Triceratops = new Dinosaur("Triceratops", 55);
+            Velociraptor = new Dinosaur("Velociraptor", 65);
+
+
+
+
+
+        }
 
         
-        Dinosaur Tyrannosaurus = new Dinosaur("Tyrannosaurus", 75);
-        Dinosaur Triceratops = new Dinosaur("Triceratops", 55);
-        Dinosaur Velociraptor = new Dinosaur("Velociraptor", 65);
 
         
 

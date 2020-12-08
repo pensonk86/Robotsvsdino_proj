@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotsvsDinosaurs
 {
-    class Robot
+    public class Robot
     {  //Create three objects and assign appropriate values to all objects
 
         //Member Variables
