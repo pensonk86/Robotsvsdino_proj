@@ -42,6 +42,10 @@ namespace RobotsvsDinosaurs
         //Member Methods
 
 
+        public void Attack(Dinosaur dinosaurBeingAttacked)
+        {
+            dinosaurBeingAttacked.health -= weapon.attackpower;
 
+        }
     }
 }
